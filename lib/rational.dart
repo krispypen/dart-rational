@@ -62,7 +62,6 @@ class Rational implements Comparable<Rational> {
     }
     if (numerator == _i0) return Rational._fromCanonicalForm(_i0, _i1);
     if (denominator == null) return Rational._normalized(numerator, _i1);
-    denominator = _i1;
     if (denominator < _i0) {
       numerator = -numerator;
       denominator = -denominator;
